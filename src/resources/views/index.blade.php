@@ -33,7 +33,8 @@
           </div>
           <div class="form__group-content">
             <div class="form__input--text">
-              <input type="text" name="name" placeholder="テスト太郎" />
+              <input type="text" name="first_name" placeholder="テスト" />
+              <input type="text" name="last_name" placeholder="太郎" />
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
