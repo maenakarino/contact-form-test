@@ -48,9 +48,9 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--radio">
-                    <input type="radio" name="gender" value="0">男
-                    <input type="radio" name="gender" value="1">女
-                    <input type="radio" name="gender" value="2">その他
+                    <input type="radio" name="gender" value="男">男
+                    <input type="radio" name="gender" value="女">女
+                    <input type="radio" name="gender" value="その他">その他
                 </div>
                 <div class="form__error">
                     <!--バリデーション機能を実装したら記述します。-->
