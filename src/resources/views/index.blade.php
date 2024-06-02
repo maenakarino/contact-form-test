@@ -42,6 +42,22 @@
           </div>
         </div>
         <div class="form__group">
+            <div class="form__group-title">
+                <span class="form__label--item">性別</span>
+                <span class="form__label--required">必須</span>
+            </div>
+            <div class="form__group-content">
+                <div class="form__input--radio">
+                    <input type="radio" name="gender" value="0">男
+                    <input type="radio" name="gender" value="1">女
+                    <input type="radio" name="gender" value="2">その他
+                </div>
+                <div class="form__error">
+                    <!--バリデーション機能を実装したら記述します。-->
+                </div>
+            </div>
+        </div>
+        <div class="form__group">
           <div class="form__group-title">
             <span class="form__label--item">メールアドレス</span>
             <span class="form__label--required">必須</span>

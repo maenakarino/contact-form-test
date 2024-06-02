@@ -38,7 +38,7 @@
             <tr class="confirm-table__row">
                 <th class="confirm-table__header">性別</th>
                 <td class="confirm-table__text">
-                    <input type="text" name="gender" value="サンプルテキスト" />
+                    <input type="text" name="gender" value="{{ $contact['gender'] }}" readonly />
                 </td>
             </tr>
             <tr class="confirm-table__row">
