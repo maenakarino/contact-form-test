@@ -48,8 +48,8 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--radio">
-                    <input type="radio" name="gender" value="男">男
-                    <input type="radio" name="gender" value="女">女
+                    <input type="radio" name="gender" value="男性">男性
+                    <input type="radio" name="gender" value="女性">女性
                     <input type="radio" name="gender" value="その他">その他
                 </div>
                 <div class="form__error">

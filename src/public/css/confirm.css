@@ -1,5 +1,5 @@
 .header {
-    background: #000;
+    background: #fff;
 }
 
 .header__inner {
@@ -9,7 +9,7 @@
 }
 
 .header__logo {
-    color: #fff;
+    color: #8B7969;
     text-decoration: none;
     font-weight: bold;
     font-size: 24px;
@@ -43,7 +43,7 @@
     padding: 15px;
     width: 20%;
     border-bottom: 1px solid #ddd;
-    background-color: #eee;
+    background-color: #E0DFDE;
     font-weight: bold;
 }
 
@@ -69,12 +69,12 @@
 }
 
 .form__button-submit {
-    padding: 10px;
-    width: 30%;
-    height: 50px;
+    padding: 10px 40px 10px 40px;
+    width: 120px;
+    height: 54px;
     border: none;
     border-radius: 3px;
-    background: #000;
+    background: #82756A;
     color: #fff;
     cursor: pointer;
 }

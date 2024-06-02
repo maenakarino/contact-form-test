@@ -1,24 +1,29 @@
 .header {
-    background: #000;
+    background: #fff;
 }
 
 .header__inner {
     margin: 0 auto;
     padding: 20px 15px;
     max-width: 1230px;
+    height: 100px;
+    width: 1512px;
 }
 
 .header__logo {
-    color: #fff;
+    color: #8B7969;
     text-decoration: none;
     font-weight: bold;
     font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .contact-form__content {
     margin: 0 auto;
     padding: 30px 15px;
     max-width: 1230px;
+    color: #8B7969;
 }
 
 .contact-form__heading {
@@ -42,7 +47,7 @@
     margin-left: 5px;
     padding: 4px 6px;
     border-radius: 3px;
-    background: #fafafa;
+    background: #E0DFDE;
     color: #aaa;
 }
 
@@ -56,7 +61,7 @@
 .form__input--textarea textarea {
     padding: 10px;
     width: 600px;
-    border: 1px solid #ddd;
+    border: 1px solid #E0DFDE;
     border-radius: 3px;
 
     appearance: none;
@@ -75,12 +80,13 @@
 }
 
 .form__button-submit {
-    padding: 10px;
-    width: 30%;
-    height: 50px;
+    padding: 10px 40px 10px 40px;
+    width: 160px;
+    height: 46px;
     border: none;
     border-radius: 3px;
-    background: #000;
+    background: #82756A;
     color: #fff;
     cursor: pointer;
+    
 }
