@@ -1,5 +1,5 @@
 .header {
-    background: #000;
+    background: #fff;
 }
 
 .header__inner {
@@ -9,7 +9,7 @@
 }
 
 .header__logo {
-    color: #fff;
+    color: #8B7969;
     text-decoration: none;
     font-weight: bold;
     font-size: 24px;
@@ -17,11 +17,32 @@
 
 .thanks__content {
     margin: 0 auto;
-    padding: 30px 15px;
+    padding: 319px 0 66px 0;
+    width: 1381px;
+    height: 365px;
     max-width: 1230px;
 }
 
 .thanks__heading {
     margin-bottom: 40px;
     text-align: center;
+    color: #8B7969;
+    font-size: 280px;
+    font-weight: 400;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px 40px 10px 40px;
+    width: 120px;
+    height: 54px;
+    border: none;
+    border-radius: 3px;
+    background: #82756A;
+    color: #fff;
+    cursor: pointer;
 }
