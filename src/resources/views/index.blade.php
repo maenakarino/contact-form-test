@@ -119,6 +119,9 @@
                 <input type="text" name="content" placeholder="資料" value="{{ old('content') }}" />
                 <select class="create-form__item-select" name="category_id">
                     <option value="">選択してください</option>
+                    @foreach ($categories as $category)
+                    <option value="{{ $category['id'] }}">{{ $category['content'] }}</option>
+                    @endforeach
                 </select>
             </div>
             <div class="form__error">
