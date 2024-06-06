@@ -5,11 +5,15 @@
 @endsection
 
 @section('content')
+<div class="register__link">
+    <a class="register__button-submit" href="/register">Register</a>
+</div>
 <div class="login__content">
   <div class="login-form__heading">
     <h2>ログイン</h2>
   </div>
   <form class="form" action="/login" method="post">
+    @csrf
     <div class="form__group">
       <div class="form__group-title">
         <span class="form__label--item">メールアドレス</span>
@@ -44,8 +48,5 @@
       <button class="form__button-submit" type="submit">ログイン</button>
     </div>
   </form>
-  <div class="register__link">
-    <a class="register__button-submit" href="/register">会員登録の方はこちら</a>
-  </div>
 </div>
 @endsection

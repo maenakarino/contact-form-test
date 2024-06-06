@@ -1,23 +1,6 @@
-.header {
-    background: #fff;
-}
-
-.header__inner {
-    margin: 0 auto;
-    padding: 20px 15px;
-    max-width: 1230px;
-}
-
-.header__logo {
-    color: #8B7969;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 24px;
-}
-
 .thanks__content {
     margin: 0 auto;
-    text-align: center;
+    padding: 50px 15px;
     max-width: 1230px;
 }
 
@@ -25,9 +8,6 @@
     margin-bottom: 40px;
     text-align: center;
     color: #8B7969;
-    padding: 10px 40px 10px 40px;
-    width: 120px;
-    height: 54px;
 }
 
 .form__button {

@@ -27,5 +27,7 @@ class ContactController extends Controller
             return redirect('/')->withInput();
         }
         return view('thanks');
+
+       
     }
 }
