@@ -11,6 +11,6 @@
       </div>
     </div>
     <div class="form__button">
-        <button class="form__button-submit" type="submit"　name="back"  value="back">HOME</button>
+        <a href="/">HOME</a>
     </div>
   @endsection
