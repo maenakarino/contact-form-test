@@ -18,5 +18,11 @@ class Contact extends Model
         'address',
         'building',
         'content',
+        'category_id',
     ];
+
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
 }

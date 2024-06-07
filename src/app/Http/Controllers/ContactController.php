@@ -13,7 +13,7 @@ class ContactController extends Controller
         $contacta = Contact::with('category')->get();
         $categories = Category::all();
         
-        return view('index', compact('contacts', 'categories'));
+        return view('index', compact('contact', 'category'));
     }
 
     public function confirm(ContactRequest $request)
