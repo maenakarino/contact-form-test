@@ -10,10 +10,10 @@ class ContactController extends Controller
 {
     public function index()
     {
-        $contacta = Contact::with('category')->get();
+        $contact = Contact::with('category')->get();
         $categories = Category::all();
         
-        return view('index', compact('contact', 'category'));
+        return view('index', compact('categories'));
     }
 
     public function confirm(ContactRequest $request)
@@ -25,6 +25,8 @@ class ContactController extends Controller
     public function store(ContactRequest $request)
     {
         $contact = $request->only(['first_name', 'last_name', 'gender', 'email', 'tel', 'address', 'building', 'content']);
+
+        $contact = $request->only(['category_id', 'content']);
         Contact::create($contact);
 
         if($request->input('back') == 'back'){
@@ -33,5 +35,10 @@ class ContactController extends Controller
         return view('thanks');
 
        
+    }
+
+    public function admit(ContactRequest $request)
+    {
+        return view('admit');
     }
 }

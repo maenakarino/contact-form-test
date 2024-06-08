@@ -23,3 +23,5 @@ Route::post('/contacts', [ContactController::class, 'store']);
 Route::middleware('auth')->group(function () {
     Route::get('/', [AuthController::class, 'index']);
     });
+
+Route::get('/admit', [ContactController::class, 'admit']);
