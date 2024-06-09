@@ -22,5 +22,5 @@ Laravel環境構築
 ##ER図
 [!![alt text](image.png) ]
 ##URL
-・開発環境:
-・phpMyAdmin:
+・開発環境:http://localhost/
+・phpMyAdmin:http://localhost:8080/
