@@ -26,7 +26,7 @@ class ContactController extends Controller
     {
         $contact = $request->only(['first_name', 'last_name', 'gender', 'email', 'tel', 'address', 'building', 'content']);
 
-        $contact = $request->only(['category_id', 'content']);
+        
         Contact::create($contact);
 
         if($request->input('back') == 'back'){
